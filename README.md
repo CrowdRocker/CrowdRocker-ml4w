@@ -25,7 +25,8 @@ sudo pacman -Syu
 You can use your preferred AUR helper.
 
 ```
-yay -S ml4w-hyprland
+yay -S ml4w-
+
 ```
 
 After the installation, you can start the setup with
@@ -48,8 +49,9 @@ After the installation, you can start the setup with
 ml4w-hyprland-setup
 ```
 Arch Linux (based)
-
+```
 bash <(curl -s https://raw.githubusercontent.com/mylinuxforwork/dotfiles/main/setup-arch.sh)
+```
 You can also install the main release with your preferred AUR helper.
 
 yay -S ml4w-hyprland ml4w-hyprland-setup
